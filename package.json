@@ -1,0 +1,52 @@
+{
+  "name": "starter",
+  "version": "0.0.1",
+  "description": "starter kit",
+  "main": "xr/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "starter"
+  ],
+  "author": "Guillaume Liard",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "browserify": "^13.3.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-declare": "^0.3.0",
+    "gulp-file-contents-to-json": "^0.2.1",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-less": "^3.3.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-underscore-template": "^1.0.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.10",
+    "gulp-wrap": "^0.13.0",
+    "lodash.assign": "^4.2.0",
+    "postcss-css-reset": "^1.0.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "backbone.marionette": "^3.1.0",
+    "bluebird": "^3.4.7",
+    "handlebars": "^4.0.6",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4"
+  }
+}
