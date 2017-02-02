@@ -50,9 +50,7 @@ gulp.task('css', function () {
         .pipe(less())
         .pipe(postcss([
             require('postcss-css-reset')({ /* options */ }),
-            autoprefixer({ browsers: ['last 8 versions'] }),
-            // require('postcss-font-magician')({hosted: ['./../fonts']})
-            require('postcss-fontpath')(true)
+            autoprefixer({ browsers: ['last 8 versions'] })
         ]))
         .pipe(gulp.dest('./dist/styles'));
     });
